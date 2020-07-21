@@ -22,7 +22,7 @@ public class BinarySearchQuestion {
         return index;
     }
 
-    public static int binarySearchRecursively(final int element, final int[] array, int first, int last) {
+    public static int binarySearchRecursively(final int element, final int[] array, final int first, final int last) {
         int middle = (first + last) / 2;
 
         if (last < first) {
