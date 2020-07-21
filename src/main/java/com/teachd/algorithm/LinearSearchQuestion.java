@@ -16,6 +16,7 @@ public class LinearSearchQuestion {
         for (int i = 0; i < list.size(); i++) {
             if (list.get(i) != element) {
                 result = i;
+                break;
             }
         }
         return result;
