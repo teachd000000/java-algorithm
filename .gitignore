@@ -1,0 +1,15 @@
+.gradle/
+.idea/
+.vscode
+out/
+logs/
+build/
+files/
+upload/
+.java-version
+*.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.iml
