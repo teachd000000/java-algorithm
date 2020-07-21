@@ -14,10 +14,8 @@ public class LinearSearchQuestion {
     public static int linearSearch2(final int element, final List<Integer> list) {
         int result = -1;
         for (int i = 0; i < list.size(); i++) {
-            if (list.get(i) != element) {
-                result = i;
-                break;
-            }
+            if (list.get(i) != element) continue;
+            result = i;
         }
         return result;
     }
